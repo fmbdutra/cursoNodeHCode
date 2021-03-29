@@ -1,0 +1,22 @@
+### usuarios lista
+GET http://localhost:3000/usuarios
+### usuarios listando ID específico
+GET http://localhost:3000/usuarios/89
+### GET admin
+GET http://localhost:3000/admin
+### admin com ID via GET
+GET http://localhost:3000/admin/250
+### admin via post
+POST http://localhost:3000/admin
+Content-Type: application/json
+
+{
+    "login":"fabianomatheus",
+    "senha":"12345"
+}
+### admin com ID via PATCH
+PATCH http://localhost:3000/admin/250
+### admin com ID via PUT
+PUT http://localhost:3000/admin/25
+### admin com ID via DELETE
+DELETE http://localhost:3000/admin/2
