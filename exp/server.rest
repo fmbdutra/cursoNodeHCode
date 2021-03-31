@@ -20,3 +20,10 @@ PATCH http://localhost:3000/admin/250
 PUT http://localhost:3000/admin/25
 ### admin com ID via DELETE
 DELETE http://localhost:3000/admin/2
+### SET cookie
+GET http://localhost:3000/setcookie
+### GET cookie
+GET http://localhost:3000/getcookie
+### GET error tratado /*
+GET http://localhost:3000/*
+
