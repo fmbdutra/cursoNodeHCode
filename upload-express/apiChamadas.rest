@@ -1,0 +1,2 @@
+## GET Bem vindo
+GET http://localhost:3000/
