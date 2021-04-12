@@ -106,6 +106,6 @@ dist
 *.rar
 *.zip
 
-.env
+*.env
 
 /videos/ffmpeg
