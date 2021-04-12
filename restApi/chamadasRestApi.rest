@@ -16,3 +16,11 @@ GET http://localhost:3000/subscribers/6073be823ab66b50a409ccb2
 ### DELETE /subscribers/:id
 DELETE http://localhost:3000/subscribers/6073c322c3a3c732acae11bc
 
+### PATCH /subscribers/:id
+PATCH http://localhost:3000/subscribers/6073be823ab66b50a409ccb2
+Content-Type: application/json
+
+{
+    "userName":"Robervaldo Brasil",
+    "userChannel": "hcodebrasil"
+}
