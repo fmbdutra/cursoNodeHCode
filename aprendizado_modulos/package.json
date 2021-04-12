@@ -1,0 +1,34 @@
+{
+  "dependencies": {
+    "bootstrap": "^4.6.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "cursonode",
+  "description": "Projeto NodeJS da HCode usando Mongo DB, REST API, Internet das Coisas IoT, segurança, Express JS.",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fmbdutra/cursoNodeHCode.git"
+  },
+  "keywords": [
+    "nodejs",
+    "npm",
+    "express",
+    "fs",
+    "path",
+    "url",
+    "mongdb",
+    "udp",
+    "crypto"
+  ],
+  "author": "Fabiano Dutra",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fmbdutra/cursoNodeHCode/issues"
+  },
+  "homepage": "https://github.com/fmbdutra/cursoNodeHCode#readme"
+}
